@@ -1,4 +1,4 @@
-# Belvo_Application_Demo
+# Belvo Demo Application
 
 This is a guide explaining how to initialize the Application Demo for the Belvo Technical Challenge.
 
