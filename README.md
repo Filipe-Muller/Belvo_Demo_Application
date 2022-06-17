@@ -30,15 +30,17 @@ This application is pretty easy to be initialized. You'll need to follow these s
 ```
 git clone https://github.com/Filipe-Muller/Belvo_Application_Demo.git
 ```
-2) Open your terminal and access the folder where the repo is located, after that please run the following command
+2) Open and edit the .env file with your API credentials, that can be obtained in the Belvo dashboard
+
+3) Open your terminal and access the folder where the repo is located, after that please run the following command
 ```
 make run
 ```
-3) You'll need to open the address provided at the end of the code execution in the terminal in any browser that you use
+4) You'll need to open the address provided at the end of the code execution in the terminal in any browser that you use
 ```
 localhost:8080
 ```
-4) After that, you'll have access to the Demo Application and can proceed with some tests
+5) After that, you'll have access to the Demo Application and can proceed with some tests
 
 ![image](https://user-images.githubusercontent.com/85353297/174397672-b8b3c7c8-1b2e-4127-9742-664df930dd61.png)
 
