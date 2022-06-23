@@ -67,7 +67,11 @@
               <div :key="item.id" v-for="item in this.accounts" class="row mb-xl pt-m pb-m">
                 <div class="text-regular-16 col">
                   {{ item.name }}
+                </div>
+                <div class="text-regular-16 col">
                   {{ item.number }}
+                </div>
+                <div class="text-regular-16 col">
                   ${{ item.balance.current }}
                 </div>
               </div>
@@ -115,7 +119,11 @@
               <div :key="item.id" v-for="item in this.transactions" class="row mb-xl pt-m pb-m">
                 <div class="text-regular-16 col">
                   {{ item.description }}
+                </div>
+                <div class="text-regular-16 col">
                   {{ item.amount }}
+                </div>
+                <div class="text-regular-16 col">
                   {{ formatDate(item.value_date) }}
                 </div>
               </div>
@@ -162,7 +170,11 @@
               <div :key="item.id" v-for="item in this.owners" class="row mb-xl pt-m pb-m">
                 <div class="text-regular-16 col">
                   {{ item.display_name }}
+                </div>
+                <div class="text-regular-16 col">
                   {{ item.email }}
+                </div>
+                <div class="text-regular-16 col">
                   {{ item.phone_number }}
                 </div>
               </div>
@@ -209,7 +221,11 @@
               <div :key="item.id" v-for="item in this.balances" class="row mb-xl pt-m pb-m">
                 <div class="text-regular-16 col">
                   {{ item.account.name }}
+                </div>
+                <div class="text-regular-16 col">
                   {{ item.current_balance }}
+                </div>
+                <div class="text-regular-16 col">
                   {{ formatDate(item.value_date) }}
                 </div>
               </div>
@@ -222,11 +238,11 @@
                   <div class="text-regular-14 request-type post mr-l">
                     RESTART
                   </div>
-                  <div class="request-content">
-                    <div class="row">
-                      <div class="text-medium-16 mr-m">
-                        Restart Application
-                      </div>
+                </div>
+                <div class="request-content">
+                  <div class="row">
+                    <div class="text-medium-16 mr-m">
+                      Restart Application
                     </div>
                     <div class="row">
                       <div class="text-regular-14">
